@@ -1,5 +1,6 @@
 ## KAU-2024-Network-no8 Chat Application
 
+
 ## 🚀 프로젝트 소개
 이 프로젝트는 **실시간 채팅 애플리케이션**으로, `frontend`는 React로, `backend`는 Node.js와 Express로 개발되었습니다. 
 사용자는 실시간으로 채팅할 수 있으며, 로그인 및 메시지 전송 기능을 지원합니다.
@@ -8,7 +9,7 @@
 - Frontend: React, CSS, HTML
 - Backend: Node.js, Express, MongoDB
 - 실시간 통신: Socket.IO
-  
+
 
 ## 🚀 실행 방법
 
