@@ -4,7 +4,8 @@
   "description": "1. 백엔드 세팅 : db 세팅, 웹 소켓 세팅 2. 프론트엔드 세팅 : 웹소켓 세팅 3. 백엔드, 프론트엔드 연결 테스트 4. 유저 로그인 5. 메세지 주고받기",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "express": "^5.1.0",
     "http": "^0.0.1-security",
     "mongoose": "^8.14.1",
+    "multer": "^1.4.5-lts.2",
     "nodemon": "^3.1.10",
     "socket.io": "^4.8.1"
   }
