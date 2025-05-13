@@ -21,7 +21,7 @@ const MessageContainer = ({ messageList, user }) => {
                   {message.chat && <div>{message.chat}</div>}
                   {message.image && (
                     <img
-                      src={`http://localhost:5001${message.image}`}
+                      src={`${process.env.REACT_APP_API_URL}${message.image}`}
                       alt="chat-img"
                       style={{
                         maxWidth: "200px",
